@@ -19,7 +19,7 @@ public class ATM {
                 case 2:
                     System.out.println("Enter amount to withdraw");
                     int withdrawAmount = scan.nextInt();
-                    if (withdrawAmount > balance) {
+                    if (withdrawAmount < balance) {
                         System.out.println("insufficient balance");
 
                     } else {
