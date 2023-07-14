@@ -23,7 +23,7 @@ public class ATM {
                         System.out.println("insufficient balance");
 
                     } else {
-                        balance -= withdrawAmount;
+                        balance += withdrawAmount;
                         System.out.println(("Withdrawal successful.your new balance is " + balance));
 
                     }
